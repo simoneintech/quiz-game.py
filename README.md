@@ -15,7 +15,8 @@ if playing != "yes":
     quit()
     
 print("Cool! Let's Play :) ")
-    ```
+```
+
 This line of text basically tells the computer, "Hey, if player selects yes, / 
 they'd like to play then print 'Cool! Let's Play :)' if player inouts no, or anything /
 aside from yes, then quit the game. The "lower" basically lets the computer now, that /
@@ -61,7 +62,7 @@ if answer == "Capricorn" or "capricorn" or "Taurus" or "taurus" or "virgo" or "V
     score += 1
 else: 
     print("Sorry, Incorrect!")
-    ```
+```
 
 We now create the questionnarie for the quiz game itself. /
 Thes starting score is 0, hence the variable 'score=0'. /
