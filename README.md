@@ -6,7 +6,7 @@ In this project I created a in computer quiz game. Using only python.
 
 ### First:
 
-We start with Printing "Welcome to my Quiz" within the command line. /
+We start with Printing "Welcome to my Quiz" within the command line. 
 
 ```
 playing = input("Do you want to play? ").lower()
@@ -17,10 +17,10 @@ if playing != "yes":
 print("Cool! Let's Play :) ")
 ```
 
-This line of text basically tells the computer, "Hey, if player selects yes, / 
-they'd like to play then print 'Cool! Let's Play :)' if player inouts no, or anything /
-aside from yes, then quit the game. The "lower" basically lets the computer now, that /
-no matter how the player types 'Yes', yes will always return lowercase. (to avoid, player /
+This line of text basically tells the computer, "Hey, if player selects yes, 
+they'd like to play then print 'Cool! Let's Play :)' if player inouts no, or anything 
+aside from yes, then quit the game. The "lower" basically lets the computer now, that 
+no matter how the player types 'Yes', yes will always return lowercase. (to avoid, player 
 needing to exactly match the way yes is written.
 
 ## Next:
@@ -64,10 +64,10 @@ else:
     print("Sorry, Incorrect!")
 ```
 
-We now create the questionnarie for the quiz game itself. /
-Thes starting score is 0, hence the variable 'score=0'. /
-After you answer each question, 'score += 1' tells the computer,/
-for every right answer the player gets correct, print 'YAY! Correct' /
+We now create the questionnarie for the quiz game itself. 
+Thes starting score is 0, hence the variable 'score=0'. 
+After you answer each question, 'score += 1' tells the computer,
+for every right answer the player gets correct, print 'YAY! Correct' 
 and add 1. 'Else' print "Sorry, Incorrect" and add no "point". 
 
 ## Lastly: 
@@ -77,11 +77,11 @@ print("Hey! You got " + str(score) + " questions correct! Thanks for playing! ")
 print("You got " + str((score/5) * 100) + "%!")
 ```
 
-The game is now complete. This following code tells the computer, /
-"Hey, tally up each 'score' (from the variable we created earlier, adding /
-=+ 1, for every correct answer) and print "Hey, You got 'X' questions correct! /
+The game is now complete. This following code tells the computer, 
+"Hey, tally up each 'score' (from the variable we created earlier, adding 
+=+ 1, for every correct answer) and print "Hey, You got 'X' questions correct! 
 Thanks for playing!  :)" along with the percentage player has gotten correct. 
 
-THANK YOU
+THANK YOU :octocat:
 
  
